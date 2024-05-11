@@ -1,0 +1,34 @@
+body {
+	background: #202125;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;	
+  font-weight: 400;
+  font-size: 92px;
+  font-style: normal;
+  color: white;
+  }
+
+
+input {
+  height: 20px;
+  width: 30vw;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.SomeButton {
+	width: 256	px;
+	height: 30px;
+	background: #303133;
+	border-radius: 8px 8px 8px 8px;
+	color: white;
+	border-color: #303133;
+	align-self: center;
+
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+
+}

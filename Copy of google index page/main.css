@@ -1,34 +1,47 @@
 body {
-	background: #202125;
+    background: #202125;
 }
-.roboto-regular {
-  font-family: "Roboto", sans-serif;	
-  font-weight: 400;
-  font-size: 92px;
-  font-style: normal;
-  color: white;
-  }
 
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 71px;
+    font-style: normal;
+    color: white;
+    margin-bottom: 30px;
+}
 
 input {
-  height: 20px;
-  width: 30vw;
-  border-radius: 10px 10px 10px 10px;
+    height: 20px;
+    width: 30vw;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 16px;
 }
 
 .SomeButton {
-	width: 256	px;
-	height: 30px;
-	background: #303133;
-	border-radius: 8px 8px 8px 8px;
-	color: white;
-	border-color: #303133;
-	align-self: center;
-
+    width: 256 px;
+    height: 30px;
+    background: #303133;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    border-color: #303133;
 }
 
 .wrapper {
-	display: flex;
-	justify-content: center;
+    margin-top: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
 
+.MainBox {
+    position: absolute;
+    top: 27vh;
+    left: 34vw;
+}
+
+.center-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
